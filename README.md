@@ -1,5 +1,8 @@
 # ITI_tasks
 
-## html
+## HTML&CSS
 - tasks
     - lab1
+    - lab2
+    - lab3 
+

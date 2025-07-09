@@ -1,0 +1,476 @@
+/* Golobal style */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat ;
+}
+.clear{
+    clear: both;
+}
+@font-face {
+    font-family:Montserrat ;
+    src: url('Fonts/Montserrat-VariableFont_wght.ttf');
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 
+"Josefin Sans"
+sans-serif;
+}
+/* ====== Navbar ===== */
+nav{
+    background-color: #fff;
+}
+nav img{
+    float:left;
+    margin: 30px 60px;
+}
+nav .links{
+    float: right;
+}
+.links a,
+.links ul{
+    display: inline-block;
+}
+.links ul{
+    margin-right: 80px;
+}
+
+.links ul li{
+    display: inline-flex;
+    padding: 0px 25px;
+}
+.links ul li a{
+    color: #4b4a4a;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.links .visit-link{
+    background-color: #BE9278;
+    color: #fff;
+    padding: 35px 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+/* ======Header===== */
+header{
+    height: 850px;
+    background-image: url('images/h1_hero.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(16, 26, 48, 0.7) 0%, rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%);
+    position: absolute;
+}
+.header-content{
+    position: absolute;
+    left: 10%;
+    bottom:10%;
+    width:40%;
+    color: #fff;
+
+}
+.header-content h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.header-content p{
+    line-height: 30px;
+    width:80%;
+    margin: 30px 0px;
+}
+.header-img{
+    position: absolute;
+    right:0;
+    bottom:0;height: 750px;
+}
+.header-img img{
+    width: 650px;
+    height: 
+    100%;
+}
+
+.header-content a{
+    font-size: 15px;
+    font-size: 500;
+    background-color: #BE9278;
+    color:#fff;
+    text-transform: uppercase;
+    padding:25px 60px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* =======================main================ */
+
+main {
+    width: 80%;
+    /* background-color:#c69d86; */
+    /* display: flex; */
+    margin: 20px auto;
+    padding-top: 100px;
+}
+
+main .offer {
+    width: 33%;
+    display: inline-block;
+}
+
+main .offer  .img {
+    padding: 50px;
+}
+
+main .offer .img img {
+    /* padding: 50px; */
+    width: 100%;
+}
+
+main .offer .content {
+    padding: 0 60px;
+}
+
+main .offer .content h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #101a31;
+    transition: all ease 1s;
+}
+
+main .offer .content p {
+    line-height: 30px;
+    font-weight: 400;
+    width: 90%;
+    margin: 10px 0;
+    letter-spacing: 1.3px;
+}
+
+main .offer .content span {
+    background-color:#c6a16e;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: -50px;
+    top: 10px;
+    transition: all ease 1s;
+}
+
+main .offer .content h3:hover {
+    /* background-color: red; */
+    color:#c6a16e ;
+}
+
+main .offer .content span:hover {
+    background-color:white;
+    border: 1px solid #101a31;
+}
+
+
+
+/* About Tailor House */
+
+.tailor-house .tailor-details{
+    margin: 0%;
+    position: relative;
+     display: flex; 
+    align-items: center;
+    margin: 0px 100px;
+    display: flex;
+}  
+
+
+.image {
+    position: relative;
+    z-index: 2;
+}
+
+image img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+}
+
+
+.text {
+    background-color: #f5f1ee;
+    padding: 40px;
+    max-width: 600px;
+    flex: 1;
+    /* border-radius: 0 4px 4px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+
+}
+
+.text h2 {
+    font-size: 36px;
+    color: #050000;
+    margin-bottom: 20px;
+}
+
+.text p {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.more {
+    background-color: #c69d86;
+    background-size: 10px;
+    max-width: 30;
+    padding: 20px 35px ;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 30px ;
+
+}
+
+.ttailor-details .overlay{
+    height: 850px;
+    background-color: #131b2e;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+
+}
+
+
+/* services */
+
+.services {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+  
+.section-title {
+    font-size: 32px;
+    color: #1b1e3d;
+    margin-bottom: 10px;
+}
+  
+.section-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+  
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+  
+.service-card {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+  
+.service-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+  
+.service-card h3 {
+    font-size: 18px;
+    color: #1b1e3d;
+    margin-bottom: 10px;
+}
+  
+.service-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.video-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.instagram h3{
+    font-size: 32px;
+    color: #1b1e3d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.instagram p{
+    font-size: 20px;
+    color: #010000;
+    line-height: 1.5;
+    text-align: center;
+}
+.instagram .insta-img{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* footer */
+
+.footer {
+  position: relative;
+  background: url('footer-bg.png') no-repeat center center/cover;
+  color: white;
+  padding: 60px 0 20px;
+  overflow: hidden;
+}
+
+.footer .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 23, 42, 0.9); /* غامق */
+  z-index: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    
+ 
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.phone {
+  color: #fbbf24;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.phone-muted {
+  color: #a0aec0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links h4 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-side {
+  max-width: 300px;
+}
+
+.footer-links {
+  min-width: 150px;
+}
+
+.footer-map {
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+
+}
