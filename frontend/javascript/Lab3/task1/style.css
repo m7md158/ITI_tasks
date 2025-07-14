@@ -1,0 +1,23 @@
+.input{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.lights{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    margin: 10px;
+ 
+}
+.output{
+    text-align: center;
+    font-size: 30px;
+}
