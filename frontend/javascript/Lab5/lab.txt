@@ -1,0 +1,24 @@
+Task 1: Fetch and Display Users Data (AJAX + JSON)
+
+--Use XMLHttpRequest to GET data from:
+
+     https://jsonplaceholder.typicode.com/users
+
+* Parse the JSON response.
+
+* Show Name, Email, City, and Company in an HTML table.
+
+* Update the table dynamically after receiving data.
+
+
+Task 2: Cookies — Save, Read, Delete
+Build a page with input to enter username.
+
+* Save username in a cookie for 7 days.
+
+* Show a welcome message with username if cookie exists, otherwise show "Guest".
+
+* Add button to delete the cookie.
+
+
+
