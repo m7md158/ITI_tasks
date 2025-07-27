@@ -1,0 +1,21 @@
+Q1:
+Write a function show_name() that prints a global variable called name.
+Then, try changing its value inside the function. What happens?
+
+Q2:
+What will happen if you try to change a global variable from inside a function without using global keyword?
+
+Q3:
+Create a lambda function to multiply any number by 10.
+
+Q4:
+Write a program that calculates your age if you were born on 2000-01-01.
+
+Q5:
+Ask the user to enter two numbers and divide them. Handle the case when the user enters 0 as the second number.
+
+Q6:
+Write a Python program to create a file named hello.txt and write "Hello,YOUR NAME" in it.
+
+Q7:
+Write a Python program that asks the user for their name and appends it to a file called names.txt

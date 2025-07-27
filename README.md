@@ -20,7 +20,19 @@
     - lab2
     - lab3
     - lab4
-    
+
+### Python
+- tasks
+    - lab1
+    - lab2
+    - lab3
+    - lab4
+
+### Django
+
+- tasks
+
+        
 
     
 

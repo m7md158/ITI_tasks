@@ -1,0 +1,19 @@
+Q1:
+Create a class called Book with attributes: title, author, and pages. Create an object and print the book details.
+
+Q2:
+Write a class Student with name and grades (list). Add a method to calculate and return the average grade.
+
+Q3:
+Create a base class Vehicle with a method start_engine(). Inherit Car and Bike from it, and override the method to show different messages.
+
+Q4:
+Create two classes Engine and Car. A Car has an Engine object (composition). Show how to access engine details from the car.
+
+Q5:
+in a separate file Create an abstract class Employee with:
+- Attributes: name and salary.
+- An abstract method calculate_salary() that must be implemented by subclasses.
+- Create classes Developer and Designer that inherit from Employee. Each should implement calculate_salary() differently (e.g., Developer +10% bonus).
+- Create a list of Employees (Developer and Designer) and print their salaries.
+

@@ -1,0 +1,25 @@
+- Sum of Even Numbers in List
+
+- Find Maximum in Tuple
+
+- Remove Duplicates Using Set
+
+1-Write a Function that accepts a string from user and count the number of ‘e’ characters in it.
+
+2- Write a function that accepts two arguments (length, start) to generate an list of a specific length filled with integer numbers increased by one from start.
+
+3- Write a function that Ask the user for his name then confirm that he has entered his name(not an empty string/integers). then proceed to ask him for his email and print all this data (Bonus) check if it is a valid email or not.
+
+4-Write a program which repeatedly reads numbers until the user enters “done”.
+ -Once “done” is entered, print out the total, count, and
+   average of the numbers.
+ -If the user enters anything other than a number, detect their
+  mistake, print an error message and skip to the next number.
+  
+5- Write a function that Fill an list of 5 elements from the user, Sort it in descending and ascending orders then display the output.
+
+6- Write a function that take a sentence and a letter to search for it in the given sentence and return its.
+
+7- Write a function that will take an array of numbers stored and find the second lowest and second greatest numbers.
+
+8- Write a function that will take a number and check if it's a prime number or not
