@@ -1,0 +1,38 @@
+{% extends 'product\base.html' %}
+{% load static %}
+
+{% block title %}
+    All products
+{% endblock title %}
+
+{% block content %}
+
+    <h1>All products</h1>
+
+    <table  border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in products %}
+                <tr>
+                    <td>
+                        <a href="{% url 'product_details' product.id %}">{{ product.name }}</a>
+                    </td>
+                    <td>{{ product.type }}</td>
+                    <td>{{ product.price }}</td>
+                    <td>{{ product.description }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock content %}
+
+
+

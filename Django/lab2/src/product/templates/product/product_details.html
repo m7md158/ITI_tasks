@@ -1,0 +1,43 @@
+{% extends 'product\base.html' %}
+{% load static %}
+
+
+{% block title %}
+    Product Details
+{% endblock title %}
+
+{% block content %}
+
+    <h1>Product Details</h1>
+    
+    {% if product %}
+        <!-- <img src="{% static 'product\images\1.jpg' %}" alt=""> -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>{{ product.name }}</td>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <td>{{ product.type }}</td>
+        </tr>
+        <tr>
+            <th>Price</th>
+            <td>{{ product.price }}</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>{{ product.description }}</td>
+        </tr>
+    </table>
+    {% else %}
+        <p>Product not found.</p>
+        
+    {% endif %}
+    <!-- <button type="button" ><a href="{% url 'all_products' %}"> All Products</a></button>
+         -->
+
+    <a href="{% url 'all_products' %}" class="btn-link">All Products</a>
+    
+{% endblock content %}
+
