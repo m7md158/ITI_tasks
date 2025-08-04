@@ -24,8 +24,9 @@ class Author(models.Model):
     
 class Book(models.Model):
     name = models.CharField(max_length=100)
-    type = models.CharField(max_length=100)
+    type = models.CharField(max_length=100, null=True)
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    
     
   
     def __str__(self):
